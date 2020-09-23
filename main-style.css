@@ -1,0 +1,955 @@
+@font-face{
+    font-family: fonte1;
+    src:url(/fonts/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: fonte2;
+    src:url(/fonts/Montserrat-Medium.ttf);
+}
+@font-face{
+font-family: fonte3;
+src: url(/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: fonte4;
+    src: url(/fonts/Montserrat-Thin.ttf);
+    }
+
+body{ 
+    overflow-x: hidden;
+}
+.img-inicio{
+    background-image: url(/imagens/netto-capa-campanha-site-menor.png);
+    background-size: cover;
+    height: 70vh;
+    background-color: rgb(0, 30, 60);
+}
+
+.container #logo-top{
+    width: 200px;
+}
+
+/*CSS MENU*/
+
+
+.ml-auto, .mx-auto #ul-menu{
+    margin-top: -8px;
+}
+
+.text-primary{
+    color: rgb(0, 30, 60);
+}
+
+nav ul li a{ 
+    text-transform: uppercase;
+    font-family: fonte2;
+    font-size: 16px; /*fonte menu*/
+    padding-left: 5px;
+    padding-right: 15px;
+    border-left: rgba(253, 245, 230, 0.255) 1px solid;
+}
+
+nav ul a:hover{
+    background: rgba(210, 105, 30, 0.250);
+    border-bottom: solid 2.5px chocolate;
+}
+
+nav ul a img{
+    width: 20px;
+}
+
+.btn-apoia {
+    margin-top: 0.7rem;
+    margin-left: 0.4rem;
+    color: #fff;
+    background-color: rgb(195, 124, 16);
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    font-family: fonte2;
+    text-transform: uppercase;
+}
+
+.btn-apoia:hover{
+    background: rgb(11, 63, 93);
+    border: none;
+}
+
+
+/*MENU TOGGLER*/
+
+.navbar-light .navbar-toggler{
+    background: rgb(195, 124, 16)
+}
+
+/*titulos*/
+
+#titulo {
+    opacity: 0.1; 
+    font-size: 4rem;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+}
+
+#titulo2 {
+    margin-top: -50px; 
+    font-size: 3rem;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+}
+
+#titulo-saiba {
+    margin-top: -6.5rem;
+    opacity: 0.1; 
+    font-size: 3.5rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#titulo2-saiba {
+    margin-top: -17rem;
+    font-size: 3rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+/*IMG INICIO*/
+.bnt-inicio p{
+    margin-right: 2rem;
+    font-size: 1.45rem;
+    text-transform: uppercase;
+    text-align: right;
+    color:#fff;
+    text-shadow: .1rem .1rem 1px rgba(0, 0, 0, .4);
+    margin-top: 1rem;
+}
+
+.bnt-inicio a button{
+    margin-right: 2rem;
+    color: #fff;
+    background:  chocolate;
+    padding: 1rem 2rem; /*espaçamento de cima e baixo, em seguida espaçamento da direita e esquerda*/
+    border: none;
+    border-radius: 5px; /*arredondamento da borda*/
+    cursor: pointer;
+    float: right; /*alinhar uma div a direita*/
+}
+
+.bnt-inicio button:hover {
+    background: rgb(15, 6, 70);
+}
+
+.bnt-saiba {
+    /* margin-right: 2.3rem;
+    margin-top: 22rem; */
+    position: absolute;
+    bottom: 300px;
+    left: 61%;
+    color: #fff;
+    background-color: rgb(195, 124, 16);
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    font-family: fonte2;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.bnt-saiba:hover{
+    background: rgb(11, 63, 93);
+}
+
+.bnt-videos{
+    margin-bottom: 0.4rem;
+    margin-right: 5px;
+    width: 250px;
+    height: 50px;
+    color: black;
+    background-color: #fff;
+    border: rgb(197, 195, 195) 1px solid;
+    border-radius: 5px; /*arredondamento da borda*/
+    cursor: pointer;
+    float: right; /*alinhar uma div a direita*/
+    font-family: fonte2;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.bnt-videos img{
+    width: 30px;
+    padding-right: 5px;
+}
+
+.cotent-instagram{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+}
+
+.bnt-instagram {
+    position: absolute;
+    margin-right: 1px;
+    z-index: 1;
+    margin-bottom: 0.4rem;
+    width: 250px;
+    height: 50px;
+    color: rgb(195, 124, 16);
+    background-color: #fff;
+    border: rgb(197, 195, 195) 1px solid;
+    border-radius: 5px; /*arredondamento da borda*/
+    cursor: pointer;
+    float: right; /*alinhar uma div a direita*/
+    font-family: fonte2;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+.bnt-instagram img{
+    width: 30px;
+    padding-right: 5px;
+}
+
+.bnt-twitter{
+
+    width: 250px;
+    height: 50px;
+    color: rgb(195, 124, 16);
+    background-color: #fff;
+    border: rgb(197, 195, 195) 1px solid;
+    border-radius: 5px; /*arredondamento da borda*/
+    cursor: pointer;
+    float: right; /*alinhar uma div a direita*/
+    font-family: fonte2;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+.bnt-twitter img{
+    width: 30px;
+    padding-right: 5px;
+}
+
+/*carrosel*/
+
+.ol #controle-carrosel{
+    margin-bottom: 20rem;
+}
+
+.teste img{
+    width: 500px;
+    height: 600px;
+}
+
+.container #controle-carrousel{
+    margin-top: 2rem;
+}
+
+.carousel-control-prev-icon{
+    background: red;
+}
+
+span .control{
+    background: red;
+}
+
+/*rodape*/
+.footer {
+    width: 100%;
+    background: rgb(11, 63, 93);
+    display: flex;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.footer h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: fonte3;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+
+/* PAGINA SAIBA MAIS */
+.img-inicio-saiba{
+    background-image: url(/imagens/capa-quem-site-menor2.png);
+    background-size: cover;
+    background-color: black;
+    height: 60vh;
+}
+
+#linha-saiba-mais{
+    margin-bottom: 50px; 
+    width: 100%;
+}
+
+#coluna-saiba-mais{
+    width: 680px; 
+    margin-bottom: 2rem; 
+    margin-left: -12rem;
+}
+
+#coluna-saiba-mais-texto{
+    margin-left: -16rem; 
+    margin-right: -15rem;
+}
+
+
+#coluna-saiba-mais-texto p{
+    font-family: fonte2; 
+    text-align: justify; 
+    font-size: 22px;
+}
+
+.container-saiba{
+    width: 100%;
+    text-align: center;
+}
+
+.container-div{
+    height: 250px;
+}
+
+.bnt-saiba2 {
+    /* margin-right: 2.3rem;
+    margin-top: 22rem; */
+    position: absolute;
+    bottom: 300px;
+    left: 61%;
+    color: #fff;
+    background-color: rgb(195, 124, 16);
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    font-family: fonte2;
+    text-transform: uppercase;
+}
+
+.bnt-saiba2:hover{
+    background: rgb(11, 63, 93);
+}
+
+/* PAGINA CONTATO */
+.img-inicio-contato{
+    background-image: url(/imagens/capa-fale-conosco-site-menor.png);
+    background-size: cover;
+    height: 50vh;
+    background-color: rgb(0, 30, 60);
+}
+
+/* .texto-contato {
+    max-width: 40rem;
+} */
+
+
+.texto-contato p{
+    font-family: "montserrat3";
+    margin-left: 4rem;
+    width: 600px;
+}
+
+.container-contato{
+    margin-left: 4rem;
+    display: flex;
+}
+
+#coluna1-contato{
+    margin-right: 5px;
+}
+
+#coluna2-contato{
+    margin-right: 5px;
+    margin-top: -1.2rem;
+}
+
+#coluna3-contato{
+    margin-right: 8px;
+    margin-top: -1.2rem;
+}
+
+.midias-contato {
+    position: relative;
+    top: -28vh;
+    margin-left: 50rem;
+    width: 40rem;
+    height: 25.5rem;
+}
+
+.midias-contato img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.midias-contato h1{
+    font-family: "montserrat1";
+}
+
+.midias-contato li{
+    padding-top: 20px;
+}
+
+.midias-contato a{
+    margin-left: 0.5rem;
+}
+
+.midias-contato li img{
+    max-width: 2rem;
+    max-height: 2rem;
+ 
+}
+
+.traco3{
+    width: 3rem;
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
+    border: chocolate 2px solid;
+}
+
+.traco4{
+    width: 3rem;
+    margin-top: -1rem;
+    margin-left: 0rem;
+    margin-bottom: 1.2rem;
+    border: chocolate 2px solid;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px #DDD solid;
+    border-radius:  5px;
+    font-family: "montserrat3";
+    font-size: 1.2rem;
+}
+
+.textarea {
+    height: 150px;
+}
+
+.bnt-contato input{ 
+    font-family: "montserrat3", serif;
+    color: #fff;
+    background: rgb(236, 103, 8);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bnt-contato input:hover{ 
+    background: rgba(1, 12, 73, 0.719);
+}
+
+
+/*PROPOSTAS*/
+.img-inicio-propostas{
+    background-image: url(/imagens/capa-propostas-site-menor3.png);
+    background-size: cover;
+    background-color: black;
+    height: 50vh;
+}
+
+#titulo2-propostas {
+    margin-top: -17.5rem;
+    opacity: 0.1; 
+    font-size: 4.5rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#titulo-propostas {
+    margin-top: -3rem;
+    font-size: 4rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#titulo-compromissos{
+    margin-left: 7%;  
+    font-family: fonte1; 
+    text-align: left;
+    font-size: 40px;
+}
+
+#video-propostas{
+    width: 50%; 
+    margin-left: 23%; 
+    height: 500px; 
+    margin-bottom: 2rem;
+}
+
+/* media queries */
+@media (max-width: 2000px){
+    .bnt-saiba{
+        bottom: 410px;
+        left: 62%;
+    }
+}
+
+@media (max-width: 1500px){
+    .bnt-saiba{
+        bottom: 365px;
+        left: 62%;
+    }
+
+    #titulo-saiba {
+        margin-top: -5rem;
+        opacity: 0.1; 
+        font-size: 2.5rem;
+        font-family: fonte1;
+        color: #fff;
+    }
+    
+    #titulo2-saiba {
+        margin-top: -13rem;
+        font-size: 2.3rem;
+        font-family: fonte1;
+        color: #fff;
+    }
+
+    #titulo2-propostas {
+        margin-top: -14.5rem;
+        opacity: 0.1; 
+        font-size: 3.5rem;
+        font-family: fonte1;
+        color: #fff;
+        text-transform: uppercase;
+}
+
+    #titulo-propostas {
+        margin-top: -3rem;
+        font-size: 3rem;
+        font-family: fonte1;
+        color: #fff;
+        text-transform: uppercase;
+        }
+
+    #video-propostas{
+        width: 70%; 
+        margin-left: 16%; 
+        height: 500px; 
+        margin-bottom: 2rem;
+        color: rgb(11, 63, 93);
+    }
+
+    #linha-saiba-mais{
+        margin-bottom: 50px; 
+        width: 100%;
+    }
+    
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: -4rem;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -16rem; 
+        margin-right: -15rem;
+    }
+
+    #coluna-saiba-mais-texto{
+        margin-left: -20rem;
+    }   
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1200px){ 
+    .bnt-saiba{
+        bottom: 320px;
+        left: 61%;
+    }
+
+    .bnt-saiba2 {
+        bottom: 350px;
+        left: 61%;
+    }
+
+    #video-propostas{
+        width: 60%; 
+        margin-left: 23%; 
+        height: 500px; 
+        margin-bottom: 2rem;
+    }
+
+        /*contato*/
+        #coluna1-contato{
+            margin-right: 5px;
+        }
+        
+        #coluna2-contato{
+            margin-right: 5px;
+            margin-left: 28rem;
+            margin-top: -4.5rem;
+        }
+        
+        #coluna3-contato{
+            margin-left: 2.5rem;
+            margin-top: 14.2rem;
+        }
+
+        #coluna-saiba-mais{
+            width: 550px; 
+            margin-bottom: 2rem; 
+            margin-left: 20%;
+        }
+        
+        #coluna-saiba-mais-texto{
+            margin-left: -16rem; 
+            margin-right: -15rem;
+        }
+    
+        #coluna-saiba-mais-texto{
+            margin-left: -59rem;
+            margin-top: 25rem;
+        }   
+    
+        #coluna-saiba-mais-texto p{
+            font-family: fonte2; 
+            text-align: justify; 
+            font-size: 19px;
+            width: 92%;
+        }
+
+        .quebra-linha{
+            height: 400px;
+            width: 100%;
+        }
+
+        #contato-zap{
+            margin-left: 5%;
+        }
+}
+
+@media (max-width: 1024px){/*extra*/
+    nav ul li a{ /*menu*/
+        text-transform: uppercase;
+        font-family: fonte2;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 15px;
+        border-left: rgba(253, 245, 230, 0.255) 1px solid;
+    }
+
+    .bnt-saiba{ /*bnt saiba mais*/
+        bottom: 415px;
+        left: 45%;
+        right: 10%;
+    }
+
+    #video-propostas{
+        width: 60%; 
+        margin-left: 20%; 
+        height: 500px; 
+        margin-bottom: 2rem;
+    }
+
+            /*contato*/
+            #coluna1-contato{
+                margin-right: 5px;
+                margin-left: 5%
+            }
+                
+            #coluna2-contato{
+                margin-right: 5px;
+                margin-left: 5%;
+                margin-top: -1rem;
+            }
+        
+            #coluna3-contato{
+                margin-left: 9%;
+                margin-top: 15.2rem;
+            }
+
+}
+
+@media (max-width: 991.98px) { 
+    .bnt-saiba{
+        bottom: 320px;
+        left: 74%;
+    }
+
+    .bnt-saiba2 {
+        bottom: 390px;
+        left: 73%;
+    }
+
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: 10%;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -1rem; 
+        margin-right: -1rem;
+    }
+
+    #coluna-saiba-mais-texto{
+        margin-left: -48rem;
+        margin-top: 27rem;
+    }   
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 115%;
+    }
+ }
+
+ @media (max-width: 768.98px) {
+    .bnt-saiba{
+        bottom: 320px;
+        left: 45%;
+    }
+
+    .bnt-saiba2 {
+        bottom: 170px;
+        left: 35%;
+        right: 45%;
+    }
+
+    #video-propostas{
+        width: 65%; 
+        margin-left: 18%; 
+        height: 500px; 
+        margin-bottom: 2rem;
+    }
+
+        /*contato*/
+        #coluna1-contato{
+            margin-right: 5px;
+            margin-left: 5%
+        }
+            
+        #coluna2-contato{
+            margin-right: 5px;
+            margin-left: 10%;
+            margin-top: 24rem;
+        }
+    
+        #coluna3-contato{
+            margin-left: 10%;
+            margin-top: 1.2rem;
+        }
+
+        #coluna-saiba-mais{
+            width: 550px; 
+            margin-bottom: 2rem; 
+            margin-left: 15%;
+        }
+        
+        #coluna-saiba-mais-texto{
+            margin-left: -47rem;
+            margin-top: 27rem;
+        }
+    
+        #coluna-saiba-mais-texto{
+            margin-left: -35rem;
+            margin-top: 27rem;
+        }   
+    
+        #coluna-saiba-mais-texto p{
+            font-family: fonte2; 
+            text-align: justify; 
+            font-size: 19px;
+            width: 95%;
+        }
+}
+
+@media (max-width: 575.98px) { 
+    .bnt-saiba{
+        bottom: 220px;
+        left: 40%;
+        right: 45%;
+    }
+
+    #titulo-saiba {
+        margin-top: -5rem;
+        opacity: 0.1; 
+        font-size: 2.5rem;
+        font-family: fonte1;
+        color: #fff;
+    }
+    
+    #titulo2-saiba {
+        margin-top: -17rem;
+        font-size: 2.3rem;
+        font-family: fonte1;
+        color: #fff;
+    }
+
+    .container-div{
+        height: 180px;
+    }
+
+    #video-propostas{
+        width: 70%; 
+        margin-left: 15%; 
+        height: 400px; 
+        margin-bottom: 2rem;
+    }
+
+    /*contato*/
+    
+
+@media (max-width: 360px){/*extra*/
+    .bnt-saiba{
+        bottom: 175px;
+        left: 28%;
+        right: 45%;
+    }
+
+    #video-propostas{
+        width: 50%; 
+        margin-left: 12%; 
+        height: 300px; 
+        margin-bottom: 2rem;
+    }
+
+    #titulo-compromissos{
+        margin-left: 7%;  
+        font-family: fonte1; 
+        text-align: left;
+        font-size: 30px;
+    }
+
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: -2%;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -34rem;
+        margin-top: 27rem;
+    }
+
+    #coluna-saiba-mais-texto{
+        margin-left: -21.3rem;
+        margin-top: 27rem;
+    }   
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 108%;
+    }
+}
+
+@media (max-width: 320px){/*extra*/
+    .bnt-saiba{
+        bottom: 175px;
+        left: 28%;
+        right: 45%;
+    }
+
+        /*contato*/
+        #coluna1-contato{
+            margin-right: 5px;
+            margin-left: 10%;
+        }
+            
+        #coluna2-contato{
+            margin-right: 5px;
+            margin-left: 23%;
+            margin-top: 24rem;
+        }
+    
+        #coluna3-contato{
+            margin-left: 23%;
+            margin-top: 1.2rem;
+        }
+
+        #coluna-saiba-mais{
+            width: 550px; 
+            margin-bottom: 2rem; 
+            margin-left: -2%;
+        }
+        
+        #coluna-saiba-mais-texto{
+            margin-left: -34rem;
+            margin-top: 27rem;
+        }
+    
+        #coluna-saiba-mais-texto{
+            margin-left: -19.3rem;
+            margin-top: 27rem;
+        }   
+    
+        #coluna-saiba-mais-texto p{
+            font-family: fonte2; 
+            text-align: justify; 
+            font-size: 19px;
+            width: 108%;
+        }
+}
+
+@media (max-width:375px){/*extra*/
+    #coluna3-contato{
+        margin-left: 23%;
+        margin-top: 1.2rem;
+    }
+
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: -2%;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -34rem;
+        margin-top: 27rem;
+    }
+
+    #coluna-saiba-mais-texto{
+        margin-left: 0.2rem;
+        margin-top: 1rem;
+    }   
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 108%;
+    }
+}
+
+
+
+
