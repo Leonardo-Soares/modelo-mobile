@@ -60,7 +60,7 @@ nav ul a img{
 }
 
 .btn-apoia {
-    margin-top: 0.7rem;
+    margin-top: 0.2rem;
     margin-left: 0.4rem;
     color: #fff;
     background-color: rgb(195, 124, 16);
@@ -88,6 +88,12 @@ nav ul a img{
 }
 
 /*titulos*/
+
+#titulo-temp{
+    font-family: fonte1; 
+    font-size: 3rem;
+    color: rgb(11, 63, 93);
+}
 
 #titulo {
     opacity: 0.1; 
@@ -732,15 +738,11 @@ span .control{
  }
 
  @media (max-width: 768.98px) {
-    .bnt-saiba{
-        bottom: 320px;
-        left: 45%;
-    }
 
-    .bnt-saiba2 {
-        bottom: 170px;
-        left: 35%;
-        right: 45%;
+    #titulo-temp{
+        font-family: fonte1; 
+        font-size: 2rem;
+        color: rgb(11, 63, 93);
     }
 
     #video-propostas{
@@ -950,6 +952,4 @@ span .control{
     }
 }
 
-
-
-
+}
