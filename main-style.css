@@ -109,21 +109,40 @@ nav ul a img{
     color: rgb(11, 63, 93);
 }
 
-#titulo-saiba {
-    margin-top: -6.5rem;
-    opacity: 0.1; 
-    font-size: 3.5rem;
-    font-family: fonte1;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-#titulo2-saiba {
-    margin-top: -17rem;
+.titulo-contato h5{   /* NORMAL */
+    position: absolute;
     font-size: 3rem;
     font-family: fonte1;
+    text-align: center;
     color: #fff;
-    text-transform: uppercase;
+}
+
+.titulo-contato h6{    /*SOMBRA*/
+    position: absolute;
+    font-size: 3.5rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -45px;
+}
+
+.titulo-saiba h5{     /* NORMAL */
+    position: absolute;
+    font-size: 2.3rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+}
+
+.titulo-saiba h6{     /* SOMBRA */
+    position: absolute;
+    font-size: 2.5rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -45px;
 }
 
 .navbar-nav .nav-link {
