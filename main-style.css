@@ -169,6 +169,27 @@ nav ul a img{
     color: rgb(11, 63, 93);
 }
 
+#titulo-menor{ /*ABA QUEM SOU EU?*/
+    font-family: fonte1; 
+    text-align: left; 
+    font-size: 25px; 
+    color: rgb(11, 63, 93);
+}
+
+#titulo-menor-propostas { /*ABA PROPOSTAS*/
+    font-family: fonte1; 
+    font-size: 25px;
+    text-align: left; 
+    color: rgb(11, 63, 93);
+}
+
+#titulo-menor-contato{
+    font-family: fonte1; 
+    text-align: left; 
+    font-size: 25px; 
+    color: rgb(11, 63, 93);
+}
+
 .navbar-nav .nav-link {
     text-align: center;
 }
