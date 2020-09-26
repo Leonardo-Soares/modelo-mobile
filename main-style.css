@@ -90,6 +90,14 @@ nav ul a img{
 /*titulos*/
 
 #titulo-temp{
+    opacity: 0.1;
+    font-family: fonte1; 
+    color: rgb(11, 63, 93);
+    font-size: 4rem; 
+    margin-bottom: -3rem; 
+}
+
+#titulo-temph3{
     font-family: fonte1; 
     font-size: 3rem;
     color: rgb(11, 63, 93);
@@ -111,7 +119,7 @@ nav ul a img{
 
 .titulo-contato h5{   /* NORMAL */
     position: absolute;
-    font-size: 3rem;
+    font-size: 40px;
     font-family: fonte1;
     text-align: center;
     color: #fff;
@@ -119,12 +127,12 @@ nav ul a img{
 
 .titulo-contato h6{    /*SOMBRA*/
     position: absolute;
-    font-size: 3.5rem;
+    font-size: 50px;
     font-family: fonte1;
     text-align: center;
     color: #fff;
     opacity: 0.1;
-    margin-top: -45px;
+    margin-top: -20px;
 }
 
 .titulo-saiba h5{     /* NORMAL */
@@ -133,6 +141,7 @@ nav ul a img{
     font-family: fonte1;
     text-align: center;
     color: #fff;
+    margin-left: 20px;
 }
 
 .titulo-saiba h6{     /* SOMBRA */
@@ -143,6 +152,21 @@ nav ul a img{
     color: #fff;
     opacity: 0.1;
     margin-top: -45px;
+    margin-left: 20px;
+}
+
+#titulo-visao{ /*SOMBRA*/
+    opacity: 0.1; 
+    font-family: fonte1; 
+    color: rgb(11, 63, 93);
+    font-size: 50px; 
+    margin-bottom: -40px; 
+}
+
+#titulo-visaoh3{ /*NORMAL*/
+    font-family: fonte1; 
+    font-size: 45px;
+    color: rgb(11, 63, 93);
 }
 
 .navbar-nav .nav-link {
@@ -492,14 +516,14 @@ span .control{
 
 
 /*PROPOSTAS*/
-.img-inicio-propostas{
+/* .img-inicio-propostas{
     background-image: url(/imagens/capa-propostas-site-menor3.png);
     background-size: cover;
     background-color: black;
     height: 50vh;
-}
+} */
 
-#titulo2-propostas {
+/* #titulo2-propostas {
     margin-top: -17.5rem;
     opacity: 0.1; 
     font-size: 4.5rem;
@@ -521,7 +545,7 @@ span .control{
     font-family: fonte1; 
     text-align: left;
     font-size: 40px;
-}
+} */
 
 #video-propostas{
     width: 50%; 
@@ -531,20 +555,9 @@ span .control{
 }
 
 /* media queries */
-@media (max-width: 2000px){
-    .bnt-saiba{
-        bottom: 410px;
-        left: 62%;
-    }
-}
 
 @media (max-width: 1500px){
-    .bnt-saiba{
-        bottom: 365px;
-        left: 62%;
-    }
-
-    #titulo-saiba {
+    /* #titulo-saiba {
         margin-top: -5rem;
         opacity: 0.1; 
         font-size: 2.5rem;
@@ -609,18 +622,17 @@ span .control{
         text-align: justify; 
         font-size: 19px;
         width: 80%;
-    }
+    } */
 }
 
 @media (max-width: 1200px){ 
-    .bnt-saiba{
-        bottom: 320px;
-        left: 61%;
-    }
-
-    .bnt-saiba2 {
-        bottom: 350px;
-        left: 61%;
+    nav ul li a{ /*menu*/
+        text-transform: uppercase;
+        font-family: fonte2;
+        font-size: 13px;
+        padding-left: 5px;
+        padding-right: 15px;
+        border-left: rgba(253, 245, 230, 0.255) 1px solid;
     }
 
     #video-propostas{
@@ -630,71 +642,51 @@ span .control{
         margin-bottom: 2rem;
     }
 
-        /*contato*/
-        #coluna1-contato{
-            margin-right: 5px;
-        }
-        
-        #coluna2-contato{
-            margin-right: 5px;
-            margin-left: 28rem;
-            margin-top: -4.5rem;
-        }
-        
-        #coluna3-contato{
-            margin-left: 2.5rem;
-            margin-top: 14.2rem;
-        }
-
-        #coluna-saiba-mais{
-            width: 550px; 
-            margin-bottom: 2rem; 
-            margin-left: 20%;
-        }
-        
-        #coluna-saiba-mais-texto{
-            margin-left: -16rem; 
-            margin-right: -15rem;
-        }
+    .quebra-linha{
+        height: 400px;
+        width: 100%;
+    }
     
-        #coluna-saiba-mais-texto{
-            margin-left: -59rem;
-            margin-top: 25rem;
-        }   
+    #contato-zap{
+        margin-left: 5%;
+    }
+
+    .titulo-saiba h5{     /* NORMAL */
+        position: absolute;
+        font-size: 2rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+    }
     
-        #coluna-saiba-mais-texto p{
-            font-family: fonte2; 
-            text-align: justify; 
-            font-size: 19px;
-            width: 92%;
-        }
+    .titulo-saiba h6{     /* SOMBRA */
+        position: absolute;
+        font-size: 2.3rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -45px;
+    }
 
-        .quebra-linha{
-            height: 400px;
-            width: 100%;
-        }
 
-        #contato-zap{
-            margin-left: 5%;
-        }
+    #titulo-visao{ /*SOMBRA*/
+        opacity: 0.1; 
+        font-family: fonte1; 
+        color: rgb(11, 63, 93);
+        font-size: 50px; 
+        margin-bottom: -40px; 
+    }
+    
+    #titulo-visaoh3{ /*NORMAL*/
+        font-family: fonte1; 
+        font-size: 45px;
+        color: rgb(11, 63, 93);
+    }
+
 }
 
 @media (max-width: 1024px){/*extra*/
-    nav ul li a{ /*menu*/
-        text-transform: uppercase;
-        font-family: fonte2;
-        font-size: 15px;
-        padding-left: 5px;
-        padding-right: 15px;
-        border-left: rgba(253, 245, 230, 0.255) 1px solid;
-    }
-
-    .bnt-saiba{ /*bnt saiba mais*/
-        bottom: 415px;
-        left: 45%;
-        right: 10%;
-    }
-
     #video-propostas{
         width: 60%; 
         margin-left: 20%; 
@@ -702,8 +694,24 @@ span .control{
         margin-bottom: 2rem;
     }
 
-            /*contato*/
-            #coluna1-contato{
+    .titulo-saiba h5{     /* NORMAL */
+        position: absolute;
+        font-size: 1.8rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .titulo-saiba h6{     /* SOMBRA */
+        position: absolute;
+        font-size: 2rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -25px;
+    }   
+            /* #coluna1-contato{
                 margin-right: 5px;
                 margin-left: 5%
             }
@@ -717,50 +725,39 @@ span .control{
             #coluna3-contato{
                 margin-left: 9%;
                 margin-top: 15.2rem;
-            }
+            } */
 
 }
 
 @media (max-width: 991.98px) { 
-    .bnt-saiba{
-        bottom: 320px;
-        left: 74%;
-    }
-
-    .bnt-saiba2 {
-        bottom: 390px;
-        left: 73%;
-    }
-
-    #coluna-saiba-mais{
-        width: 550px; 
-        margin-bottom: 2rem; 
-        margin-left: 10%;
+    #titulo-visao{ /*SOMBRA*/
+        opacity: 0.1; 
+        font-family: fonte1; 
+        color: rgb(11, 63, 93);
+        font-size: 40px; 
+        margin-bottom: -28px; 
     }
     
-    #coluna-saiba-mais-texto{
-        margin-left: -1rem; 
-        margin-right: -1rem;
+    #titulo-visaoh3{ /*NORMAL*/
+        font-family: fonte1; 
+        font-size: 35px;
+        color: rgb(11, 63, 93);
     }
-
-    #coluna-saiba-mais-texto{
-        margin-left: -48rem;
-        margin-top: 27rem;
-    }   
-
-    #coluna-saiba-mais-texto p{
-        font-family: fonte2; 
-        text-align: justify; 
-        font-size: 19px;
-        width: 115%;
-    }
- }
+}
 
  @media (max-width: 768.98px) {
 
     #titulo-temp{
+        opacity: 0.1;
         font-family: fonte1; 
-        font-size: 2rem;
+        color: rgb(11, 63, 93);
+        font-size: 48px; 
+        margin-bottom: -2rem; 
+    }
+
+    #titulo-temph3{
+        font-family: fonte1; 
+        font-size: 41px;
         color: rgb(11, 63, 93);
     }
 
@@ -771,8 +768,57 @@ span .control{
         margin-bottom: 2rem;
     }
 
-        /*contato*/
-        #coluna1-contato{
+    .titulo-saiba h5{     /* NORMAL */
+        position: absolute;
+        font-size: 1.2rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .titulo-saiba h6{     /* SOMBRA */
+        position: absolute;
+        font-size: 1.45rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -25px;
+    } 
+
+    .titulo-contato h5{   /* NORMAL */
+        position: absolute;
+        font-size: 40px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .titulo-contato h6{    /*SOMBRA*/
+        position: absolute;
+        font-size: 50px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -20px;
+    }
+
+    #titulo-visao{ /*SOMBRA*/
+        opacity: 0.1; 
+        font-family: fonte1; 
+        color: rgb(11, 63, 93);
+        font-size: 30px; 
+        margin-bottom: -23px; 
+    }
+    
+    #titulo-visaoh3{ /*NORMAL*/
+        font-family: fonte1; 
+        font-size: 25px;
+        color: rgb(11, 63, 93);
+    }
+
+    /* #coluna1-contato{
             margin-right: 5px;
             margin-left: 5%
         }
@@ -809,52 +855,136 @@ span .control{
             text-align: justify; 
             font-size: 19px;
             width: 95%;
-        }
+        } */
 }
 
-@media (max-width: 575.98px) { 
-    .bnt-saiba{
-        bottom: 220px;
-        left: 40%;
-        right: 45%;
+@media (max-width: 575.98px) {
+    .bnt-videos{
+        margin-bottom: 0.4rem;
+        margin-right: 5px;
+        width: 145px;
+        height: 35px;
+        color: black;
+        background-color: #fff;
+        border: rgb(197, 195, 195) 1px solid;
+        border-radius: 5px; /*arredondamento da borda*/
+        cursor: pointer;
+        float: right; /*alinhar uma div a direita*/
+        font-family: fonte2;
+        text-transform: uppercase;
+        font-size: 0.4rem;
     }
 
-    #titulo-saiba {
-        margin-top: -5rem;
-        opacity: 0.1; 
-        font-size: 2.5rem;
-        font-family: fonte1;
-        color: #fff;
+    #titulo-temp{
+        opacity: 0.1;
+        font-family: fonte1; 
+        color: rgb(11, 63, 93);
+        font-size: 35px; 
+        margin-bottom: -1.5rem; 
     }
-    
-    #titulo2-saiba {
-        margin-top: -17rem;
-        font-size: 2.3rem;
-        font-family: fonte1;
-        color: #fff;
+
+    #titulo-temph3{
+        font-family: fonte1; 
+        font-size: 30px;
+        color: rgb(11, 63, 93);
     }
 
     .container-div{
         height: 180px;
     }
 
-    #video-propostas{
-        width: 70%; 
-        margin-left: 15%; 
-        height: 400px; 
-        margin-bottom: 2rem;
+    .titulo-saiba h5{     /* NORMAL */
+        position: absolute;
+        font-size: 0.8rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
     }
-
-    /*contato*/
     
-
-@media (max-width: 360px){/*extra*/
-    .bnt-saiba{
-        bottom: 175px;
-        left: 28%;
-        right: 45%;
+    .titulo-saiba h6{     /* SOMBRA */
+        position: absolute;
+        font-size: 1rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -13px;
     }
 
+    .titulo-contato h5{   /* NORMAL */
+        position: absolute;
+        font-size: 28px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .titulo-contato h6{    /*SOMBRA*/
+        position: absolute;
+        font-size: 35px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -20px;
+    }
+
+}  
+
+@media (max-width:425px){
+    .titulo-saiba h5{     /* NORMAL */
+        position: absolute;
+        font-size: 0.6rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .titulo-saiba h6{     /* SOMBRA */
+        position: absolute;
+        font-size: 0.8rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -10px;
+    } 
+
+    
+    #titulo-temp{
+        opacity: 0.1;
+        font-family: fonte1; 
+        color: rgb(11, 63, 93);
+        font-size: 30px; 
+        margin-bottom: -1.5rem; 
+    }
+
+    #titulo-temph3{
+        font-family: fonte1; 
+        font-size: 25px;
+        color: rgb(11, 63, 93);
+    }
+
+    .titulo-contato h5{   /* NORMAL */
+        position: absolute;
+        font-size: 20px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .titulo-contato h6{    /*SOMBRA*/
+        position: absolute;
+        font-size: 25px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 375px){/*extra*/
     #video-propostas{
         width: 50%; 
         margin-left: 12%; 
@@ -869,106 +999,104 @@ span .control{
         font-size: 30px;
     }
 
-    #coluna-saiba-mais{
-        width: 550px; 
-        margin-bottom: 2rem; 
-        margin-left: -2%;
+    .titulo-saiba h5{     /* NORMAL */
+        position: absolute;
+        font-size: 0.5rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
     }
     
-    #coluna-saiba-mais-texto{
-        margin-left: -34rem;
-        margin-top: 27rem;
+    .titulo-saiba h6{     /* SOMBRA */
+        position: absolute;
+        font-size: 0.7rem;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -7px;
     }
 
-    #coluna-saiba-mais-texto{
-        margin-left: -21.3rem;
-        margin-top: 27rem;
-    }   
+    #titulo-temp{
+        opacity: 0.1;
+        font-family: fonte1; 
+        color: rgb(11, 63, 93);
+        font-size: 25px; 
+        margin-bottom: -1.2rem; 
+    }
 
-    #coluna-saiba-mais-texto p{
-        font-family: fonte2; 
-        text-align: justify; 
-        font-size: 19px;
-        width: 108%;
+    #titulo-temph3{
+        font-family: fonte1; 
+        font-size: 21px;
+        color: rgb(11, 63, 93);
     }
 }
 
 @media (max-width: 320px){/*extra*/
-    .bnt-saiba{
-        bottom: 175px;
-        left: 28%;
-        right: 45%;
+    #titulo-temp{
+        opacity: 0.1;
+        font-family: fonte1; 
+        color: rgb(11, 63, 93);
+        font-size: 21px; 
+        margin-bottom: -1rem; 
     }
 
-        /*contato*/
-        #coluna1-contato{
-            margin-right: 5px;
-            margin-left: 10%;
-        }
-            
-        #coluna2-contato{
-            margin-right: 5px;
-            margin-left: 23%;
-            margin-top: 24rem;
-        }
-    
-        #coluna3-contato{
-            margin-left: 23%;
-            margin-top: 1.2rem;
-        }
-
-        #coluna-saiba-mais{
-            width: 550px; 
-            margin-bottom: 2rem; 
-            margin-left: -2%;
-        }
-        
-        #coluna-saiba-mais-texto{
-            margin-left: -34rem;
-            margin-top: 27rem;
-        }
-    
-        #coluna-saiba-mais-texto{
-            margin-left: -19.3rem;
-            margin-top: 27rem;
-        }   
-    
-        #coluna-saiba-mais-texto p{
-            font-family: fonte2; 
-            text-align: justify; 
-            font-size: 19px;
-            width: 108%;
-        }
-}
-
-@media (max-width:375px){/*extra*/
-    #coluna3-contato{
-        margin-left: 23%;
-        margin-top: 1.2rem;
+    #titulo-temph3{
+        font-family: fonte1; 
+        font-size: 17px;
+        color: rgb(11, 63, 93);
     }
 
-    #coluna-saiba-mais{
-        width: 550px; 
-        margin-bottom: 2rem; 
-        margin-left: -2%;
+    .titulo-saiba h5{     /* NORMAL */
+        position: absolute;
+        font-size: 12px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        margin-top: 28px;
     }
     
-    #coluna-saiba-mais-texto{
-        margin-left: -34rem;
-        margin-top: 27rem;
-    }
+    .titulo-saiba h6{     /* SOMBRA */
+        position: absolute;
+        font-size: 13px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: 15px;
+    } 
 
-    #coluna-saiba-mais-texto{
-        margin-left: 0.2rem;
-        margin-top: 1rem;
-    }   
-
-    #coluna-saiba-mais-texto p{
-        font-family: fonte2; 
-        text-align: justify; 
+    .titulo-contato h5{   /* NORMAL */
+        position: absolute;
         font-size: 19px;
-        width: 108%;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .titulo-contato h6{    /*SOMBRA*/
+        position: absolute;
+        font-size: 27px;
+        font-family: fonte1;
+        text-align: center;
+        color: #fff;
+        opacity: 0.1;
+        margin-top: -20px;
     }
 }
 
+@media (max-width:280px){/*extra*/
+    #titulo-temp{
+        opacity: 0.1;
+        font-family: fonte1; 
+        color: rgb(11, 63, 93);
+        font-size: 1.3rem; 
+        margin-bottom: -1rem; 
+    }
+
+    #titulo-temph3{
+        font-family: fonte1; 
+        font-size: 1rem;
+        color: rgb(11, 63, 93);
+    }
 }
