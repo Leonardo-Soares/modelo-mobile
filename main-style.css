@@ -59,7 +59,11 @@ nav ul a img{
     width: 20px;
 }
 
-.btn-apoia {
+nav li #bnt-apoia:hover {
+    background: rgb(11, 63, 93);
+}
+
+/* .btn-apoia {
     margin-top: 0.2rem;
     margin-left: 0.4rem;
     color: #fff;
@@ -73,12 +77,12 @@ nav ul a img{
     border: none;
     font-family: fonte2;
     text-transform: uppercase;
-}
+} */
 
-.btn-apoia:hover{
+/* .btn-apoia:hover{
     background: rgb(11, 63, 93);
     border: none;
-}
+} */
 
 
 /*MENU TOGGLER*/
