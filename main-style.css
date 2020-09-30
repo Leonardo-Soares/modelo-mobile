@@ -1,66 +1,66 @@
-@font-face{
-    font-family: fonte1;
-    src:url(/fonts/Montserrat-Bold.ttf);
+@font-face {
+  font-family: fonte1;
+  src: url(/fonts/Montserrat-Bold.ttf);
 }
-@font-face{
-    font-family: fonte2;
-    src:url(/fonts/Montserrat-Medium.ttf);
+@font-face {
+  font-family: fonte2;
+  src: url(/fonts/Montserrat-Medium.ttf);
 }
-@font-face{
-font-family: fonte3;
-src: url(/fonts/Montserrat-Medium.ttf);
-}
-
-@font-face{
-    font-family: fonte4;
-    src: url(/fonts/Montserrat-Thin.ttf);
-    }
-
-body{ 
-    overflow-x: hidden;
-}
-.img-inicio{
-    background-image: url(/imagens/netto-capa-campanha-site-menor.png);
-    background-size: cover;
-    height: 70vh;
-    background-color: rgb(0, 30, 60);
+@font-face {
+  font-family: fonte3;
+  src: url(/fonts/Montserrat-Medium.ttf);
 }
 
-.container #logo-top{
-    width: 200px;
+@font-face {
+  font-family: fonte4;
+  src: url(/fonts/Montserrat-Thin.ttf);
+}
+
+body {
+  overflow-x: hidden;
+}
+.img-inicio {
+  background-image: url(/imagens/netto-capa-campanha-site-menor.png);
+  background-size: cover;
+  height: 70vh;
+  background-color: rgb(0, 30, 60);
+}
+
+.container #logo-top {
+  width: 200px;
 }
 
 /*CSS MENU*/
 
-
-.ml-auto, .mx-auto #ul-menu{
-    margin-top: -8px;
+.ml-auto,
+.mx-auto #ul-menu {
+  margin-top: -8px;
 }
 
-.text-primary{
-    color: rgb(0, 30, 60);
+.text-primary {
+  color: rgb(0, 30, 60);
 }
 
-nav ul li a{ 
-    text-transform: uppercase;
-    font-family: fonte2;
-    font-size: 16px; /*fonte menu*/
-    padding-left: 5px;
-    padding-right: 15px;
-    border-left: rgba(253, 245, 230, 0.255) 1px solid;
+nav ul li a {
+  text-transform: uppercase;
+  font-family: fonte2;
+  font-size: 16px; /*fonte menu*/
+  padding-left: 5px;
+  padding-right: 15px;
+  border-left: rgba(253, 245, 230, 0.255) 1px solid;
 }
 
-nav ul a:hover{
-    background: rgba(210, 105, 30, 0.250);
-    border-bottom: solid 2.5px chocolate;
+nav ul a:hover {
+  background: rgba(210, 105, 30, 0.25);
+  border-bottom: solid 2.5px chocolate;
 }
 
-nav ul a img{
-    width: 20px;
+nav ul a img {
+  width: 20px;
 }
 
 nav li #bnt-apoia:hover {
-    background: rgb(11, 63, 93);
+  background: rgb(11, 63, 93);
 }
 
 /* .btn-apoia {
@@ -84,461 +84,463 @@ nav li #bnt-apoia:hover {
     border: none;
 } */
 
-
 /*MENU TOGGLER*/
 
-.navbar-light .navbar-toggler{
-    background: rgb(195, 124, 16)
+.navbar-light .navbar-toggler {
+  background: rgb(195, 124, 16);
 }
 
 /*titulos*/
 
-#titulo-temp{
-    opacity: 0.1;
-    font-family: fonte1; 
-    color: rgb(11, 63, 93);
-    font-size: 4rem; 
-    margin-bottom: -3rem; 
+#titulo-temp {
+  opacity: 0.1;
+  font-family: fonte1;
+  color: rgb(11, 63, 93);
+  font-size: 4rem;
+  margin-bottom: -3rem;
 }
 
-#titulo-temph3{
-    font-family: fonte1; 
-    font-size: 3rem;
-    color: rgb(11, 63, 93);
+#titulo-temph3 {
+  font-family: fonte1;
+  font-size: 3rem;
+  color: rgb(11, 63, 93);
 }
 
 #titulo {
-    opacity: 0.1; 
-    font-size: 4rem;
-    font-family: fonte1;
-    color: rgb(11, 63, 93);
+  opacity: 0.1;
+  font-size: 4rem;
+  font-family: fonte1;
+  color: rgb(11, 63, 93);
 }
 
 #titulo2 {
-    margin-top: -50px; 
-    font-size: 3rem;
-    font-family: fonte1;
-    color: rgb(11, 63, 93);
+  margin-top: -50px;
+  font-size: 3rem;
+  font-family: fonte1;
+  color: rgb(11, 63, 93);
 }
 
-.titulo-contato h5{   /* NORMAL */
-    position: absolute;
-    font-size: 40px;
-    font-family: fonte1;
-    text-align: center;
-    color: #fff;
+.titulo-contato h5 {
+  /* NORMAL */
+  position: absolute;
+  font-size: 40px;
+  font-family: fonte1;
+  text-align: center;
+  color: #fff;
 }
 
-.titulo-contato h6{    /*SOMBRA*/
-    position: absolute;
-    font-size: 50px;
-    font-family: fonte1;
-    text-align: center;
-    color: #fff;
-    opacity: 0.1;
-    margin-top: -20px;
+.titulo-contato h6 {
+  /*SOMBRA*/
+  position: absolute;
+  font-size: 50px;
+  font-family: fonte1;
+  text-align: center;
+  color: #fff;
+  opacity: 0.1;
+  margin-top: -20px;
 }
 
-.titulo-saiba h5{     /* NORMAL */
-    position: absolute;
-    font-size: 2.3rem;
-    font-family: fonte1;
-    text-align: center;
-    color: #fff;
-    margin-left: 20px;
+.titulo-saiba h5 {
+  /* NORMAL */
+  position: absolute;
+  font-size: 2.3rem;
+  font-family: fonte1;
+  text-align: center;
+  color: #fff;
+  margin-left: 20px;
 }
 
-.titulo-saiba h6{     /* SOMBRA */
-    position: absolute;
-    font-size: 2.5rem;
-    font-family: fonte1;
-    text-align: center;
-    color: #fff;
-    opacity: 0.1;
-    margin-top: -45px;
-    margin-left: 20px;
+.titulo-saiba h6 {
+  /* SOMBRA */
+  position: absolute;
+  font-size: 2.5rem;
+  font-family: fonte1;
+  text-align: center;
+  color: #fff;
+  opacity: 0.1;
+  margin-top: -33px;
+  margin-left: 20px;
 }
 
-#titulo-visao{ /*SOMBRA*/
-    opacity: 0.1; 
-    font-family: fonte1; 
-    color: rgb(11, 63, 93);
-    font-size: 50px; 
-    margin-bottom: -40px; 
+#titulo-visao {
+  /*SOMBRA*/
+  opacity: 0.1;
+  font-family: fonte1;
+  color: rgb(11, 63, 93);
+  font-size: 50px;
+  margin-bottom: -40px;
 }
 
-#titulo-visaoh3{ /*NORMAL*/
-    font-family: fonte1; 
-    font-size: 45px;
-    color: rgb(11, 63, 93);
+#titulo-visaoh3 {
+  /*NORMAL*/
+  font-family: fonte1;
+  font-size: 45px;
+  color: rgb(11, 63, 93);
 }
 
-#titulo-menor{ /*ABA QUEM SOU EU?*/
-    font-family: fonte1; 
-    text-align: left; 
-    font-size: 25px; 
-    color: rgb(11, 63, 93);
+#titulo-menor {
+  /*ABA QUEM SOU EU?*/
+  font-family: fonte1;
+  text-align: left;
+  font-size: 25px;
+  color: rgb(11, 63, 93);
 }
 
-#titulo-menor-propostas { /*ABA PROPOSTAS*/
-    font-family: fonte1; 
-    font-size: 25px;
-    text-align: left; 
-    color: rgb(11, 63, 93);
+#titulo-menor-propostas {
+  /*ABA PROPOSTAS*/
+  font-family: fonte1;
+  font-size: 25px;
+  text-align: left;
+  color: rgb(11, 63, 93);
 }
 
-#titulo-menor-contato{
-    font-family: fonte1; 
-    text-align: left; 
-    font-size: 25px; 
-    color: rgb(11, 63, 93);
+#titulo-menor-contato {
+  font-family: fonte1;
+  text-align: left;
+  font-size: 25px;
+  color: rgb(11, 63, 93);
 }
 
 .navbar-nav .nav-link {
-    text-align: center;
+  text-align: center;
 }
 
 /*IMG INICIO*/
-.bnt-inicio p{
-    margin-right: 2rem;
-    font-size: 1.45rem;
-    text-transform: uppercase;
-    text-align: right;
-    color:#fff;
-    text-shadow: .1rem .1rem 1px rgba(0, 0, 0, .4);
-    margin-top: 1rem;
+.bnt-inicio p {
+  margin-right: 2rem;
+  font-size: 1.45rem;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+  text-shadow: 0.1rem 0.1rem 1px rgba(0, 0, 0, 0.4);
+  margin-top: 1rem;
 }
 
-.bnt-inicio a button{
-    margin-right: 2rem;
-    color: #fff;
-    background:  chocolate;
-    padding: 1rem 2rem; /*espaçamento de cima e baixo, em seguida espaçamento da direita e esquerda*/
-    border: none;
-    border-radius: 5px; /*arredondamento da borda*/
-    cursor: pointer;
-    float: right; /*alinhar uma div a direita*/
+.bnt-inicio a button {
+  margin-right: 2rem;
+  color: #fff;
+  background: chocolate;
+  padding: 1rem 2rem; /*espaçamento de cima e baixo, em seguida espaçamento da direita e esquerda*/
+  border: none;
+  border-radius: 5px; /*arredondamento da borda*/
+  cursor: pointer;
+  float: right; /*alinhar uma div a direita*/
 }
 
 .bnt-inicio button:hover {
-    background: rgb(15, 6, 70);
+  background: rgb(15, 6, 70);
 }
 
 .bnt-saiba {
-    /* margin-right: 2.3rem;
+  /* margin-right: 2.3rem;
     margin-top: 22rem; */
-    position: absolute;
-    bottom: 300px;
-    left: 61%;
-    color: #fff;
-    background-color: rgb(195, 124, 16);
-    width: 140px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-    border: none;
-    font-family: fonte2;
-    text-transform: uppercase;
-    font-size: 0.9rem;
+  position: absolute;
+  bottom: 300px;
+  left: 61%;
+  color: #fff;
+  background-color: rgb(195, 124, 16);
+  width: 140px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  border: none;
+  font-family: fonte2;
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
 
-.bnt-saiba:hover{
-    background: rgb(11, 63, 93);
+.bnt-saiba:hover {
+  background: rgb(11, 63, 93);
 }
 
-.bnt-videos{
-    margin-bottom: 0.4rem;
-    margin-right: 5px;
-    width: 250px;
-    height: 50px;
-    color: black;
-    background-color: #fff;
-    border: rgb(197, 195, 195) 1px solid;
-    border-radius: 5px; /*arredondamento da borda*/
-    cursor: pointer;
-    float: right; /*alinhar uma div a direita*/
-    font-family: fonte2;
-    text-transform: uppercase;
-    font-size: 0.8rem;
+.bnt-videos {
+  margin-bottom: 0.4rem;
+  margin-right: 5px;
+  width: 250px;
+  height: 50px;
+  color: black;
+  background-color: #fff;
+  border: rgb(197, 195, 195) 1px solid;
+  border-radius: 5px; /*arredondamento da borda*/
+  cursor: pointer;
+  float: right; /*alinhar uma div a direita*/
+  font-family: fonte2;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
 
-.bnt-videos img{
-    width: 30px;
-    padding-right: 5px;
+.bnt-videos img {
+  width: 30px;
+  padding-right: 5px;
 }
 
-.cotent-instagram{
-    position: absolute;
-    width: 100%;
-    height: 40px;
+.cotent-instagram {
+  position: absolute;
+  width: 100%;
+  height: 40px;
 }
 
 .bnt-instagram {
-    position: absolute;
-    margin-right: 1px;
-    z-index: 1;
-    margin-bottom: 0.4rem;
-    width: 250px;
-    height: 50px;
-    color: rgb(195, 124, 16);
-    background-color: #fff;
-    border: rgb(197, 195, 195) 1px solid;
-    border-radius: 5px; /*arredondamento da borda*/
-    cursor: pointer;
-    float: right; /*alinhar uma div a direita*/
-    font-family: fonte2;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    margin-right: 5px;
+  position: absolute;
+  margin-right: 1px;
+  z-index: 1;
+  margin-bottom: 0.4rem;
+  width: 250px;
+  height: 50px;
+  color: rgb(195, 124, 16);
+  background-color: #fff;
+  border: rgb(197, 195, 195) 1px solid;
+  border-radius: 5px; /*arredondamento da borda*/
+  cursor: pointer;
+  float: right; /*alinhar uma div a direita*/
+  font-family: fonte2;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-right: 5px;
 }
 
-.bnt-instagram img{
-    width: 30px;
-    padding-right: 5px;
+.bnt-instagram img {
+  width: 30px;
+  padding-right: 5px;
 }
 
-.bnt-twitter{
-
-    width: 250px;
-    height: 50px;
-    color: rgb(195, 124, 16);
-    background-color: #fff;
-    border: rgb(197, 195, 195) 1px solid;
-    border-radius: 5px; /*arredondamento da borda*/
-    cursor: pointer;
-    float: right; /*alinhar uma div a direita*/
-    font-family: fonte2;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    margin-right: 5px;
+.bnt-twitter {
+  width: 250px;
+  height: 50px;
+  color: rgb(195, 124, 16);
+  background-color: #fff;
+  border: rgb(197, 195, 195) 1px solid;
+  border-radius: 5px; /*arredondamento da borda*/
+  cursor: pointer;
+  float: right; /*alinhar uma div a direita*/
+  font-family: fonte2;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-right: 5px;
 }
 
-.bnt-twitter img{
-    width: 30px;
-    padding-right: 5px;
+.bnt-twitter img {
+  width: 30px;
+  padding-right: 5px;
 }
 
 /*carrosel*/
 
-.ol #controle-carrosel{
-    margin-bottom: 20rem;
+.ol #controle-carrosel {
+  margin-bottom: 20rem;
 }
 
-.teste img{
-    width: 500px;
-    height: 600px;
+.teste img {
+  width: 500px;
+  height: 600px;
 }
 
-.container #controle-carrousel{
-    margin-top: 2rem;
+.container #controle-carrousel {
+  margin-top: 2rem;
 }
 
-.carousel-control-prev-icon{
-    background: red;
+.carousel-control-prev-icon {
+  background: red;
 }
 
-span .control{
-    background: red;
+span .control {
+  background: red;
 }
 
 /*rodape*/
 .footer {
-    width: 100%;
-    background: rgb(11, 63, 93);
-    display: flex;
-    bottom: 0px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-.footer h1{
-    padding-top: 10px;
-    text-align: center;
-    font-family: fonte3;
-    font-size: 0.9rem;
-    color: #fff;
-  }
+  width: 100%;
+  background: rgb(11, 63, 93);
+  display: flex;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: fonte3;
+  font-size: 0.9rem;
+  color: #fff;
+}
 
 /* PAGINA SAIBA MAIS */
-.img-inicio-saiba{
-    background-image: url(/imagens/capa-quem-site-menor2.png);
-    background-size: cover;
-    background-color: black;
-    height: 60vh;
+.img-inicio-saiba {
+  background-image: url(/imagens/capa-quem-site-menor2.png);
+  background-size: cover;
+  background-color: black;
+  height: 60vh;
 }
 
-#linha-saiba-mais{
-    margin-bottom: 50px; 
-    width: 100%;
+#linha-saiba-mais {
+  margin-bottom: 50px;
+  width: 100%;
 }
 
-#coluna-saiba-mais{
-    width: 680px; 
-    margin-bottom: 2rem; 
-    margin-left: -12rem;
+#coluna-saiba-mais {
+  width: 680px;
+  margin-bottom: 2rem;
+  margin-left: -12rem;
 }
 
-#coluna-saiba-mais-texto{
-    margin-left: -16rem; 
-    margin-right: -15rem;
+#coluna-saiba-mais-texto {
+  margin-left: -16rem;
+  margin-right: -15rem;
 }
 
-
-#coluna-saiba-mais-texto p{
-    font-family: fonte2; 
-    text-align: justify; 
-    font-size: 22px;
+#coluna-saiba-mais-texto p {
+  font-family: fonte2;
+  text-align: justify;
+  font-size: 22px;
 }
 
-.container-saiba{
-    width: 100%;
-    text-align: center;
+.container-saiba {
+  width: 100%;
+  text-align: center;
 }
 
-.container-div{
-    height: 250px;
+.container-div {
+  height: 250px;
 }
 
 .bnt-saiba2 {
-    /* margin-right: 2.3rem;
+  /* margin-right: 2.3rem;
     margin-top: 22rem; */
-    position: absolute;
-    bottom: 300px;
-    left: 61%;
-    color: #fff;
-    background-color: rgb(195, 124, 16);
-    width: 130px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-    border: none;
-    font-family: fonte2;
-    text-transform: uppercase;
+  position: absolute;
+  bottom: 300px;
+  left: 61%;
+  color: #fff;
+  background-color: rgb(195, 124, 16);
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  border: none;
+  font-family: fonte2;
+  text-transform: uppercase;
 }
 
-.bnt-saiba2:hover{
-    background: rgb(11, 63, 93);
+.bnt-saiba2:hover {
+  background: rgb(11, 63, 93);
 }
 
 /* PAGINA CONTATO */
-.img-inicio-contato{
-    background-image: url(/imagens/capa-fale-conosco-site-menor.png);
-    background-size: cover;
-    height: 50vh;
-    background-color: rgb(0, 30, 60);
+.img-inicio-contato {
+  background-image: url(/imagens/capa-fale-conosco-site-menor.png);
+  background-size: cover;
+  height: 50vh;
+  background-color: rgb(0, 30, 60);
 }
 
 /* .texto-contato {
     max-width: 40rem;
 } */
 
-
-.texto-contato p{
-    font-family: "montserrat3";
-    margin-left: 4rem;
-    width: 600px;
+.texto-contato p {
+  font-family: 'montserrat3';
+  margin-left: 4rem;
+  width: 600px;
 }
 
-.container-contato{
-    margin-left: 4rem;
-    display: flex;
+.container-contato {
+  margin-left: 4rem;
+  display: flex;
 }
 
-#coluna1-contato{
-    margin-right: 5px;
+#coluna1-contato {
+  margin-right: 5px;
 }
 
-#coluna2-contato{
-    margin-right: 5px;
-    margin-top: -1.2rem;
+#coluna2-contato {
+  margin-right: 5px;
+  margin-top: -1.2rem;
 }
 
-#coluna3-contato{
-    margin-right: 8px;
-    margin-top: -1.2rem;
+#coluna3-contato {
+  margin-right: 8px;
+  margin-top: -1.2rem;
 }
 
 .midias-contato {
-    position: relative;
-    top: -28vh;
-    margin-left: 50rem;
-    width: 40rem;
-    height: 25.5rem;
+  position: relative;
+  top: -28vh;
+  margin-left: 50rem;
+  width: 40rem;
+  height: 25.5rem;
 }
 
-.midias-contato img{
-    max-width: 100%;
-    max-height: 100%;
+.midias-contato img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.midias-contato h1{
-    font-family: "montserrat1";
+.midias-contato h1 {
+  font-family: 'montserrat1';
 }
 
-.midias-contato li{
-    padding-top: 20px;
+.midias-contato li {
+  padding-top: 20px;
 }
 
-.midias-contato a{
-    margin-left: 0.5rem;
+.midias-contato a {
+  margin-left: 0.5rem;
 }
 
-.midias-contato li img{
-    max-width: 2rem;
-    max-height: 2rem;
- 
+.midias-contato li img {
+  max-width: 2rem;
+  max-height: 2rem;
 }
 
-.traco3{
-    width: 3rem;
-    margin-left: 4rem;
-    margin-bottom: 1.5rem;
-    border: chocolate 2px solid;
+.traco3 {
+  width: 3rem;
+  margin-left: 4rem;
+  margin-bottom: 1.5rem;
+  border: chocolate 2px solid;
 }
 
-.traco4{
-    width: 3rem;
-    margin-top: -1rem;
-    margin-left: 0rem;
-    margin-bottom: 1.2rem;
-    border: chocolate 2px solid;
+.traco4 {
+  width: 3rem;
+  margin-top: -1rem;
+  margin-left: 0rem;
+  margin-bottom: 1.2rem;
+  border: chocolate 2px solid;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
+.form {
+  display: flex;
+  flex-direction: column;
 }
 
-.field{
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px #DDD solid;
-    border-radius:  5px;
-    font-family: "montserrat3";
-    font-size: 1.2rem;
+.field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px #ddd solid;
+  border-radius: 5px;
+  font-family: 'montserrat3';
+  font-size: 1.2rem;
 }
 
 .textarea {
-    height: 150px;
+  height: 150px;
 }
 
-.bnt-contato input{ 
-    font-family: "montserrat3", serif;
-    color: #fff;
-    background: rgb(236, 103, 8);
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.bnt-contato input {
+  font-family: 'montserrat3', serif;
+  color: #fff;
+  background: rgb(236, 103, 8);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.bnt-contato input:hover{ 
-    background: rgba(1, 12, 73, 0.719);
+.bnt-contato input:hover {
+  background: rgba(1, 12, 73, 0.719);
 }
-
 
 /*PROPOSTAS*/
 /* .img-inicio-propostas{
@@ -572,17 +574,17 @@ span .control{
     font-size: 40px;
 } */
 
-#video-propostas{
-    width: 50%; 
-    margin-left: 23%; 
-    height: 500px; 
-    margin-bottom: 2rem;
+#video-propostas {
+  width: 50%;
+  margin-left: 23%;
+  height: 500px;
+  margin-bottom: 2rem;
 }
 
 /* media queries */
 
-@media (max-width: 1500px){
-    /* #titulo-saiba {
+@media (max-width: 1500px) {
+  /* #titulo-saiba {
         margin-top: -5rem;
         opacity: 0.1; 
         font-size: 2.5rem;
@@ -650,93 +652,99 @@ span .control{
     } */
 }
 
-@media (max-width: 1200px){ 
-    nav ul li a{ /*menu*/
-        text-transform: uppercase;
-        font-family: fonte2;
-        font-size: 13px;
-        padding-left: 5px;
-        padding-right: 15px;
-        border-left: rgba(253, 245, 230, 0.255) 1px solid;
-    }
+@media (max-width: 1200px) {
+  nav ul li a {
+    /*menu*/
+    text-transform: uppercase;
+    font-family: fonte2;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 15px;
+    border-left: rgba(253, 245, 230, 0.255) 1px solid;
+  }
 
-    #video-propostas{
-        width: 60%; 
-        margin-left: 23%; 
-        height: 500px; 
-        margin-bottom: 2rem;
-    }
+  #video-propostas {
+    width: 60%;
+    margin-left: 23%;
+    height: 500px;
+    margin-bottom: 2rem;
+  }
 
-    .quebra-linha{
-        height: 400px;
-        width: 100%;
-    }
-    
-    #contato-zap{
-        margin-left: 5%;
-    }
+  .quebra-linha {
+    height: 400px;
+    width: 100%;
+  }
 
-    .titulo-saiba h5{     /* NORMAL */
-        position: absolute;
-        font-size: 2rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-saiba h6{     /* SOMBRA */
-        position: absolute;
-        font-size: 2.3rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -45px;
-    }
+  #contato-zap {
+    margin-left: 5%;
+  }
 
+  .titulo-saiba h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 2rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
 
-    #titulo-visao{ /*SOMBRA*/
-        opacity: 0.1; 
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 50px; 
-        margin-bottom: -40px; 
-    }
-    
-    #titulo-visaoh3{ /*NORMAL*/
-        font-family: fonte1; 
-        font-size: 45px;
-        color: rgb(11, 63, 93);
-    }
+  .titulo-saiba h6 {
+    /* SOMBRA */
+    position: absolute;
+    font-size: 2.3rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -45px;
+  }
 
+  #titulo-visao {
+    /*SOMBRA*/
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 50px;
+    margin-bottom: -40px;
+  }
+
+  #titulo-visaoh3 {
+    /*NORMAL*/
+    font-family: fonte1;
+    font-size: 45px;
+    color: rgb(11, 63, 93);
+  }
 }
 
-@media (max-width: 1024px){/*extra*/
-    #video-propostas{
-        width: 60%; 
-        margin-left: 20%; 
-        height: 500px; 
-        margin-bottom: 2rem;
-    }
+@media (max-width: 1024px) {
+  /*extra*/
+  #video-propostas {
+    width: 60%;
+    margin-left: 20%;
+    height: 500px;
+    margin-bottom: 2rem;
+  }
 
-    .titulo-saiba h5{     /* NORMAL */
-        position: absolute;
-        font-size: 1.8rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-saiba h6{     /* SOMBRA */
-        position: absolute;
-        font-size: 2rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -25px;
-    }   
-            /* #coluna1-contato{
+  .titulo-saiba h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 1.8rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titulo-saiba h6 {
+    /* SOMBRA */
+    position: absolute;
+    font-size: 2rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -25px;
+  }
+  /* #coluna1-contato{
                 margin-right: 5px;
                 margin-left: 5%
             }
@@ -751,99 +759,105 @@ span .control{
                 margin-left: 9%;
                 margin-top: 15.2rem;
             } */
-
 }
 
-@media (max-width: 991.98px) { 
-    #titulo-visao{ /*SOMBRA*/
-        opacity: 0.1; 
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 40px; 
-        margin-bottom: -28px; 
-    }
-    
-    #titulo-visaoh3{ /*NORMAL*/
-        font-family: fonte1; 
-        font-size: 35px;
-        color: rgb(11, 63, 93);
-    }
+@media (max-width: 991.98px) {
+  #titulo-visao {
+    /*SOMBRA*/
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 40px;
+    margin-bottom: -28px;
+  }
+
+  #titulo-visaoh3 {
+    /*NORMAL*/
+    font-family: fonte1;
+    font-size: 35px;
+    color: rgb(11, 63, 93);
+  }
 }
 
- @media (max-width: 768.98px) {
+@media (max-width: 768.98px) {
+  #titulo-temp {
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 48px;
+    margin-bottom: -2rem;
+  }
 
-    #titulo-temp{
-        opacity: 0.1;
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 48px; 
-        margin-bottom: -2rem; 
-    }
+  #titulo-temph3 {
+    font-family: fonte1;
+    font-size: 41px;
+    color: rgb(11, 63, 93);
+  }
 
-    #titulo-temph3{
-        font-family: fonte1; 
-        font-size: 41px;
-        color: rgb(11, 63, 93);
-    }
+  #video-propostas {
+    width: 65%;
+    margin-left: 18%;
+    height: 500px;
+    margin-bottom: 2rem;
+  }
 
-    #video-propostas{
-        width: 65%; 
-        margin-left: 18%; 
-        height: 500px; 
-        margin-bottom: 2rem;
-    }
+  .titulo-saiba h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 1.2rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
 
-    .titulo-saiba h5{     /* NORMAL */
-        position: absolute;
-        font-size: 1.2rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-saiba h6{     /* SOMBRA */
-        position: absolute;
-        font-size: 1.45rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -25px;
-    } 
+  .titulo-saiba h6 {
+    /* SOMBRA */
+    position: absolute;
+    font-size: 1.45rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -25px;
+  }
 
-    .titulo-contato h5{   /* NORMAL */
-        position: absolute;
-        font-size: 40px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-contato h6{    /*SOMBRA*/
-        position: absolute;
-        font-size: 50px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -20px;
-    }
+  .titulo-contato h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 40px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
 
-    #titulo-visao{ /*SOMBRA*/
-        opacity: 0.1; 
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 30px; 
-        margin-bottom: -23px; 
-    }
-    
-    #titulo-visaoh3{ /*NORMAL*/
-        font-family: fonte1; 
-        font-size: 25px;
-        color: rgb(11, 63, 93);
-    }
+  .titulo-contato h6 {
+    /*SOMBRA*/
+    position: absolute;
+    font-size: 50px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -20px;
+  }
 
-    /* #coluna1-contato{
+  #titulo-visao {
+    /*SOMBRA*/
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 30px;
+    margin-bottom: -23px;
+  }
+
+  #titulo-visaoh3 {
+    /*NORMAL*/
+    font-family: fonte1;
+    font-size: 25px;
+    color: rgb(11, 63, 93);
+  }
+
+  /* #coluna1-contato{
             margin-right: 5px;
             margin-left: 5%
         }
@@ -884,244 +898,271 @@ span .control{
 }
 
 @media (max-width: 575.98px) {
-    .bnt-videos{
-        margin-bottom: 0.4rem;
-        margin-right: 5px;
-        width: 145px;
-        height: 35px;
-        color: black;
-        background-color: #fff;
-        border: rgb(197, 195, 195) 1px solid;
-        border-radius: 5px; /*arredondamento da borda*/
-        cursor: pointer;
-        float: right; /*alinhar uma div a direita*/
-        font-family: fonte2;
-        text-transform: uppercase;
-        font-size: 0.4rem;
-    }
+  .bnt-videos {
+    margin-bottom: 0.4rem;
+    margin-right: 5px;
+    width: 145px;
+    height: 35px;
+    color: black;
+    background-color: #fff;
+    border: rgb(197, 195, 195) 1px solid;
+    border-radius: 5px; /*arredondamento da borda*/
+    cursor: pointer;
+    float: right; /*alinhar uma div a direita*/
+    font-family: fonte2;
+    text-transform: uppercase;
+    font-size: 0.4rem;
+  }
 
-    #titulo-temp{
-        opacity: 0.1;
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 35px; 
-        margin-bottom: -1.5rem; 
-    }
+  #titulo-temp {
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 35px;
+    margin-bottom: -1.5rem;
+  }
 
-    #titulo-temph3{
-        font-family: fonte1; 
-        font-size: 30px;
-        color: rgb(11, 63, 93);
-    }
+  #titulo-temph3 {
+    font-family: fonte1;
+    font-size: 30px;
+    color: rgb(11, 63, 93);
+  }
 
-    .container-div{
-        height: 180px;
-    }
+  .esconde-txt {
+    display: none;
+  }
 
-    .titulo-saiba h5{     /* NORMAL */
-        position: absolute;
-        font-size: 0.8rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-saiba h6{     /* SOMBRA */
-        position: absolute;
-        font-size: 1rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -13px;
-    }
+  .container-div {
+    height: 180px;
+  }
 
-    .titulo-contato h5{   /* NORMAL */
-        position: absolute;
-        font-size: 28px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-contato h6{    /*SOMBRA*/
-        position: absolute;
-        font-size: 35px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -20px;
-    }
+  .titulo-saiba h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 0.8rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
 
-}  
+  .titulo-saiba h6 {
+    /* SOMBRA */
+    position: absolute;
+    font-size: 1rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -13px;
+  }
 
-@media (max-width:425px){
-    .titulo-saiba h5{     /* NORMAL */
-        position: absolute;
-        font-size: 0.6rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-saiba h6{     /* SOMBRA */
-        position: absolute;
-        font-size: 0.8rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -10px;
-    } 
+  .titulo-contato h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 28px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
 
-    
-    #titulo-temp{
-        opacity: 0.1;
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 30px; 
-        margin-bottom: -1.5rem; 
-    }
-
-    #titulo-temph3{
-        font-family: fonte1; 
-        font-size: 25px;
-        color: rgb(11, 63, 93);
-    }
-
-    .titulo-contato h5{   /* NORMAL */
-        position: absolute;
-        font-size: 20px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-contato h6{    /*SOMBRA*/
-        position: absolute;
-        font-size: 25px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -20px;
-    }
+  .titulo-contato h6 {
+    /*SOMBRA*/
+    position: absolute;
+    font-size: 35px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -20px;
+  }
 }
 
-@media (max-width: 375px){/*extra*/
-    #video-propostas{
-        width: 50%; 
-        margin-left: 12%; 
-        height: 300px; 
-        margin-bottom: 2rem;
-    }
+@media (max-width: 425px) {
+  .titulo-saiba h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 0.6rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
 
-    #titulo-compromissos{
-        margin-left: 7%;  
-        font-family: fonte1; 
-        text-align: left;
-        font-size: 30px;
-    }
+  .titulo-saiba h6 {
+    /* SOMBRA */
+    position: absolute;
+    font-size: 0.8rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -10px;
+  }
 
-    .titulo-saiba h5{     /* NORMAL */
-        position: absolute;
-        font-size: 0.5rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-saiba h6{     /* SOMBRA */
-        position: absolute;
-        font-size: 0.7rem;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -7px;
-    }
+  #titulo-temp {
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 30px;
+    margin-bottom: -1.5rem;
+  }
 
-    #titulo-temp{
-        opacity: 0.1;
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 25px; 
-        margin-bottom: -1.2rem; 
-    }
+  #titulo-temph3 {
+    font-family: fonte1;
+    font-size: 25px;
+    color: rgb(11, 63, 93);
+  }
 
-    #titulo-temph3{
-        font-family: fonte1; 
-        font-size: 21px;
-        color: rgb(11, 63, 93);
-    }
+  .titulo-contato h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 20px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titulo-contato h6 {
+    /*SOMBRA*/
+    position: absolute;
+    font-size: 25px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -20px;
+  }
 }
 
-@media (max-width: 320px){/*extra*/
-    #titulo-temp{
-        opacity: 0.1;
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 21px; 
-        margin-bottom: -1rem; 
-    }
+@media (max-width: 375px) {
+  /*extra*/
+  #video-propostas {
+    width: 50%;
+    margin-left: 12%;
+    height: 300px;
+    margin-bottom: 2rem;
+  }
 
-    #titulo-temph3{
-        font-family: fonte1; 
-        font-size: 17px;
-        color: rgb(11, 63, 93);
-    }
+  #titulo-compromissos {
+    margin-left: 7%;
+    font-family: fonte1;
+    text-align: left;
+    font-size: 30px;
+  }
 
-    .titulo-saiba h5{     /* NORMAL */
-        position: absolute;
-        font-size: 12px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        margin-top: 28px;
-    }
-    
-    .titulo-saiba h6{     /* SOMBRA */
-        position: absolute;
-        font-size: 13px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: 15px;
-    } 
+  .titulo-saiba h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 0.5rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
 
-    .titulo-contato h5{   /* NORMAL */
-        position: absolute;
-        font-size: 19px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .titulo-contato h6{    /*SOMBRA*/
-        position: absolute;
-        font-size: 27px;
-        font-family: fonte1;
-        text-align: center;
-        color: #fff;
-        opacity: 0.1;
-        margin-top: -20px;
-    }
+  .titulo-saiba h6 {
+    /* SOMBRA */
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -7px;
+  }
+
+  #titulo-temp {
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 25px;
+    margin-bottom: -1.2rem;
+  }
+
+  #titulo-temph3 {
+    font-family: fonte1;
+    font-size: 21px;
+    color: rgb(11, 63, 93);
+  }
 }
 
-@media (max-width:280px){/*extra*/
-    #titulo-temp{
-        opacity: 0.1;
-        font-family: fonte1; 
-        color: rgb(11, 63, 93);
-        font-size: 1.3rem; 
-        margin-bottom: -1rem; 
-    }
+@media (max-width: 320px) {
+  /*extra*/
+  #titulo-temp {
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 21px;
+    margin-bottom: -1rem;
+  }
 
-    #titulo-temph3{
-        font-family: fonte1; 
-        font-size: 1rem;
-        color: rgb(11, 63, 93);
-    }
+  #titulo-temph3 {
+    font-family: fonte1;
+    font-size: 17px;
+    color: rgb(11, 63, 93);
+  }
+
+  .titulo-saiba h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 12px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    margin-top: 28px;
+  }
+
+  .titulo-saiba h6 {
+    /* SOMBRA */
+    position: absolute;
+    font-size: 13px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: 15px;
+  }
+
+  .titulo-contato h5 {
+    /* NORMAL */
+    position: absolute;
+    font-size: 19px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+  }
+
+  .titulo-contato h6 {
+    /*SOMBRA*/
+    position: absolute;
+    font-size: 27px;
+    font-family: fonte1;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 280px) {
+  /*extra*/
+  #titulo-temp {
+    opacity: 0.1;
+    font-family: fonte1;
+    color: rgb(11, 63, 93);
+    font-size: 1.3rem;
+    margin-bottom: -1rem;
+  }
+
+  #titulo-temph3 {
+    font-family: fonte1;
+    font-size: 1rem;
+    color: rgb(11, 63, 93);
+  }
+}
+
+.eapps-instagram-feed-title {
+  display: none;
+}
+
+..eapps-link {
+  display: none;
 }
