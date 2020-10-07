@@ -90,6 +90,21 @@ nav li #bnt-apoia:hover {
   background: rgb(195, 124, 16);
 }
 
+.esconde-destaque {
+  display: none;
+}
+
+.destaque {
+  background-color: chocolate;
+  color: #fff;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: fonte2;
+  margin: 7px;
+}
+
 /*titulos*/
 
 #titulo-temp {
@@ -777,6 +792,18 @@ span .control {
     font-size: 35px;
     color: rgb(11, 63, 93);
   }
+
+  #bnt-apoia {
+    display: none;
+  }
+
+  .esconde-destaque {
+    display: block;
+  }
+
+  .destaque {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 768.98px) {
@@ -1163,6 +1190,10 @@ span .control {
   display: none;
 }
 
-..eapps-link {
+.eapps-link {
   display: none;
+}
+
+.st-bg st-bg-today {
+  font-size: 100px;
 }
