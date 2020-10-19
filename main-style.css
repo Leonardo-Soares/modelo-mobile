@@ -95,11 +95,12 @@ nav li #bnt-apoia:hover {
 }
 
 .destaque {
+  display: none;
   background-color: chocolate;
   color: #fff;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  font-size: 16px;
+  font-size: 10px;
   text-transform: uppercase;
   font-family: fonte2;
   margin: 7px;
