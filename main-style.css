@@ -558,6 +558,220 @@ span .control {
   background: rgba(1, 12, 73, 0.719);
 }
 
+.contact{
+  margin-left: 5%;
+  width: 100%; 
+  margin-top: 50px;
+}
+
+.contact .php-email-form button[type="submit"]{
+  background: rgb(11, 63, 93);
+  border: 0;
+  margin-top: 15px;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact .php-email-form button:hover[type="submit"]{
+  background: rgb(236, 103, 8);
+}
+
+.contact .php-email-form button[type="reset"]{
+  background: rgb(119, 31, 31);
+  border: 0;
+  margin-top: 15px;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact .php-email-form button:hover[type="reset"]{
+  background-color: black;
+}
+
+
+#header .subscribe .subscribe-form {
+  min-width: 300px;
+  margin-top: 10px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  text-align: left;
+}
+
+#header .subscribe .subscribe-form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#header .subscribe .subscribe-form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #ff0000;
+  color: #fff;
+  transition: 0.3s;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#header .subscribe .subscribe-form input[type="submit"]:hover {
+  background: #f50000;
+}
+
+#header .subscribe .error-message {
+  display: none;
+  color: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#header .subscribe .sent-message {
+  display: none;
+  color: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#header .subscribe .loading {
+  display: none;
+  text-align: center;
+  padding: 15px;
+}
+
+#header .subscribe .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading-notify 1s linear infinite;
+  animation: animate-loading-notify 1s linear infinite;
+}
+
+@-webkit-keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #fff;
+  color: black;
+}
+
+.bnt-minijanela{
+  background: #ff0000;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+
+}
+.bnt-minijanela:hover {
+  background: #fff;
+  color: black;
+}
+
+.contact #legenda{
+  font-weight: 25px;
+}
+
+#reset {
+  background: black;
+  border: 0;
+  margin-top: 15px;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  
+}
+
+#limpa-tela:hover {
+  background: #fff;
+  color: black;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 500px){
+  .contact{
+    margin-left: 3%;
+  }
+
+  .contact .php-email-form button[type="reset"]{
+    margin-bottom: 50px;
+  }
+
+}
+
+
 /*PROPOSTAS*/
 /* .img-inicio-propostas{
     background-image: url(/imagens/capa-propostas-site-menor3.png);

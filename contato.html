@@ -3,14 +3,14 @@
   <head lang="pt-br">
     <title>Netto Marques</title>
     <meta charset="utf-8" />
-    <!--<link rel="stylesheet" href="style.css">-->
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="/style-carrosel.css" />
-    <link rel="stylesheet" href="/main-style.css" />
+    <link rel="stylesheet" href="style-carrosel.css" />
+    <link rel="stylesheet" href="main-style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -156,8 +156,8 @@
       <h5>FALE CONOSCO</h5>
     </header>
 
-    <div style="width: 100%; margin-top: 50px">
-      <div class="row" style="margin-left: 5%">
+    <section class="contact">
+      <div class="row" >
         <!-- <div class="col-sm">
                     <div class="texto-contato">
                        
@@ -178,25 +178,11 @@
                     </section>
             </div> -->
         <!-- <span class="quebra-linha">
-            </span> -->
-        <div class="col-sm-4" style="margin-bottom: 50px">
-          <!-- class="col-sm-3"  antes-->
+        </span> -->
+        
+        <!-- <div class="col-sm-4" style="margin-bottom: 50px">
           <h1 id="titulo-menor-contato">ENVIE-NOS UMA MENSAGEM</h1>
           <ul style="list-style: none">
-            <!-- <li style="margin-bottom: 1rem">
-              <a
-                href="https://api.whatsapp.com/send?phone=5591984308648"
-                target="_blank"
-                style="margin-left: -40px"
-                ><img src="/imagens/whatsapp.png" style="width: 30px"
-              /></a>
-              <a
-                href="https://api.whatsapp.com/send?phone=5591984308648"
-                target="_blank"
-                >Equipe Netto Marques</a
-              >
-            </li> -->
-            <!-- <li style="margin-bottom: 1rem">
               <a
                 href="https://t.me/nettomarquesequipe"
                 target="_blank"
@@ -207,7 +193,7 @@
               <a href="https://t.me/nettomarquespa" target="_blank"
                 >@nettomarquespa</a
               >
-            </li> -->
+            </li>
             <li style="margin-bottom: 1rem">
               <a
                 href="mailto:falecom@nettomarques.com.br?Subject=Título%20da%20mensagem"
@@ -221,16 +207,113 @@
               >
             </li>
           </ul>
+        </div> -->
+
+        <div class="col-lg-6">
+          <h1 id="titulo-menor-contato">ENVIE-NOS UMA MENSAGEM</h1>
+          <form action="enviar.php" method="post" role="form" class="php-email-form">
+            <div class="form-row">
+              <!-- NOME COMPLETO -->
+              <div class="col-md-12 form-group">
+                <input required type="text" name="nome" class="form-control" id="nome" placeholder="Nome"
+                  data-rule="minlen:4" data-msg="Preencha seu nome completo" />
+                <div class="validate"></div>
+              </div>
+
+              <!-- EMAIL -->
+              <div class="col-md-6 form-group">
+                <input required type="email" class="form-control" name="email" id="email" placeholder="E-mail"
+                  data-rule="email" data-msg="Insira um e-mail válido" />
+                <div class="validate"></div>
+              </div>
+
+              <!-- ENDEREÇO -->
+              <!-- <div class="col-md-6 form-group">
+                <input required type="text" name="endereco" class="form-control" id="endereco"
+                  placeholder="Endereço Completo" data-rule="minlen:6" data-msg="Insira endereço completo" />
+                <div class="validate"></div>
+              </div> -->
+
+              <!-- TELEFONE - WHATSAPP -->
+              <div class="col-md-6 form-group">
+                <input required type="text" class="form-control" name="numero" onkeypress="mask(this, mphone);"
+                  onblur="mask(this, mphone);" id="numero" placeholder="Telefone" data-rule="minlen:4"
+                  data-msg="Insira um número de telefone válido" />
+                <div class="validate"></div>
+              </div>
+
+            </div>
+            <!-- <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Endereço Completo"
+                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
+            </div> -->
+
+            <!-- TEXTO LONGO -->
+            <div class="form-group">
+              <textarea class="form-control" name="mensagem" rows="5" data-rule="required"
+                data-msg="Responda a pergunta"
+                placeholder="Escreva sua mensagem"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <!-- TERMO -->
+            <!-- <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+              <label style="color: black; font-family: 'Gothan Medium';" class="custom-control-label"
+                for="customControlValidation1">
+                Aceite nossos
+                <a id="termo-voluntario" type="button" data-toggle="modal" data-target="#exampleModal">
+                  Termos e Condições
+                </a>
+                para prosseguir
+              </label>
+              <div class="invalid-feedback">Marque para continuar</div>
+            </div> -->
+            <!-- FIM TERMO -->
+
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Mensagem enviada</div>
+            </div>
+
+            <div class="text-center" >
+              <button type="submit">Enviar Mensagem</button>
+            </div>
+
+            <div class="text-center">
+              <button class="limpa-tela" type="reset">Limpar Tudo</button>
+            </div>
+
+          </form>
         </div>
 
-        <div class="col-sm">
+        
+
+        <div class="col-lg-6">
+          <!-- <div class="card mb-3" style="max-width: 240px;  padding-top: 15px; padding-left: 15px; padding-bottom: -10px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="imagens/instagram.png" alt="" class="card-img" style="max-width: 40px;"
+              />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title" style="margin-left: -20px;">@leonardoso </h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          
+
           <h1 id="titulo-menor-contato">REDES SOCIAIS</h1>
           <ul style="list-style: none">
-            <li style="margin-bottom: 1rem">
+            <li style="margin-bottom: 1rem; "  >
               <a
                 href="https://www.instagram.com/nettomarquespa/"
                 target="_blank"
-                style="margin-left: -40px"
+                style="margin-left: -40px; "
                 ><img src="/imagens/instagram.png" alt="" style="width: 30px"
               /></a>
               <a
@@ -310,7 +393,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </section>
 
     <div style="height: 50px"></div>
 
